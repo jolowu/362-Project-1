@@ -31,3 +31,65 @@ input{
     background-color: slategray;
     text-decoration-color: black;
 }
+h1{
+    font-size: 25px;
+    color: azure
+}   
+h2{
+    font-size: 15px;
+    color: azure;
+}
+label{
+    font-size: 10px;
+    color: azure;
+}
+@media only screen and (min-width: 800px){
+    html{
+        background: url(https://s27389.pcdn.co/wp-content/uploads/2017/04/AdobeStock_100000042-2-1024x576.jpeg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    body{
+        font-family: 'Orbitron', Arial, sans-serif;
+        text-align: center;
+        align-content: center;
+        margin: 2.5cm;
+        width: 90%;
+        padding: 10px;
+    } 
+    input {
+        display: inline-block;
+        width: 350px;
+        padding: 10px 10px;
+        margin: 15px 0;
+        border-radius: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .submit-button{
+        height: 33px;
+        width: 133px;
+        border-radius: 10px;
+        background-color: slategray;
+        text-decoration-color: black;
+        text-align: center;
+        padding: 10px 20px;
+        display: inline-block;
+        font-size: 17px;
+        font-family: 'Orbitron', Arial, sans-serif;
+    }
+    h1{
+        font-size: 50px;
+        color: azure
+    }   
+    h2{
+        font-size: 25px;
+        color: azure;
+    }
+    label{
+        font-size: 15px;
+        color: azure;
+    }
+}
